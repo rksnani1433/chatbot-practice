@@ -1,0 +1,79 @@
+body{
+    padding: 40px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #333; 
+    padding: 10px 0;
+    
+}
+
+/* Styling the list items */
+.navbar ul {
+    list-style-type: none;
+    text-align: center; 
+}
+
+/* Styling the links */
+.navbar ul li {
+    display: inline; 
+}
+
+.navbar ul li a {
+    display: inline-block; 
+    color: white; 
+    text-decoration: none;
+    padding: 10px 20px; /* Add padding to the links */
+}
+
+/* Hover effect on links */
+.navbar ul li a:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+/* Styling the logo container */
+.logo {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 24px; /* Font size */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling the logo text */
+.logo-text {
+    font-weight: bold; /* Bold text */
+}
+body{
+    background-color: #e4b5b5;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    margin: auto;
+}
+
+.chat{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px;
+    cursor: pointer;
+    position: absolute;
+    top: auto;
+    bottom: 40px;
+    left: auto;
+    right: 40px;
+}
